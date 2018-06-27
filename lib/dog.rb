@@ -1,4 +1,5 @@
 class Dog
+  
   attr_accessor :name
   @@all = []
 
@@ -15,5 +16,5 @@ class Dog
       puts "#{dog.name}"
     end
   end
-  
+
 end
