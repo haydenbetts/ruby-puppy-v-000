@@ -1,5 +1,5 @@
 class Dog
-  
+
   attr_accessor :name
   @@all = []
 
@@ -7,11 +7,11 @@ class Dog
     @name = name
   end
 
-  self.clear_all
+  def self.clear_all
     @@all = []
   end
 
-  self.all
+  def self.all
     @all.each do |dog|
       puts "#{dog.name}"
     end
